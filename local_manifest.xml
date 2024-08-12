@@ -3,15 +3,17 @@
 
     <remote name="inferno0230"
             fetch="https://github.com/OnePlus12R-development" />
+    <remote name="klr1to"
+            fetch="https://github.com/Klr1to" />
 
     <!-- device tree deps-->
-    <project path="device/oneplus/aston" name="android_device_oneplus_aston" revision="lineage-21" remote="inferno0230" />
+    <project path="device/oneplus/aston" name="android_device_oneplus_aston" revision="blaze" remote="klr1to" />
 
     <!-- Wtf is this. Why tf is this>
     <project path="device/oneplus/aston-kernel" name="android_device_oneplus_aston-kernel" revision="lineage-21" remote="inferno0230" /-->
 
     <!-- common tree -->
-    <project path="device/oneplus/sm8550-common" name="android_device_oneplus_sm8550-common" revision="lineage-21" remote="inferno0230" />
+    <project path="device/oneplus/sm8550-common" name="android_device_oneplus_sm8550-common" revision="blaze" remote="klr1to" />
 
     <!-- ktree -->
     <project path="kernel/oneplus/sm8550" name="android_kernel_oneplus_sm8550" revision="lineage-21" remote="inferno0230" />
