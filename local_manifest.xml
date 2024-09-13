@@ -13,7 +13,7 @@
     <project path="device/oneplus/aston-kernel" name="android_device_oneplus_aston-kernel" revision="lineage-21" remote="inferno0230" /-->
 
     <!-- common tree -->
-    <project path="device/oneplus/sm8550-common" name="android_device_oneplus_sm8550-common" revision="fourteen" remote="klr1to" />
+    <project path="device/oneplus/sm8550-common" name="android_device_oneplus_sm8550-common" revision="rising-os" remote="klr1to" />
 
     <!-- ktree -->
     <project path="kernel/oneplus/sm8550" name="android_kernel_oneplus_sm8550diff" revision="nethunter" remote="klr1to" />
@@ -28,10 +28,10 @@
     <project path="hardware/oplus" name="android_hardware_oplus" revision="fourteen" remote="inferno0230" />
 
     <!-- vendor device -->
-    <project path="vendor/oneplus/aston" name="proprietary_vendor_oneplus_aston" revision="fourteen" remote="inferno0230" />
+    <project path="vendor/oneplus/aston" name="proprietary_vendor_oneplus_aston" revision="rising-os" remote="inferno0230" />
 
     <!-- vendor common -->
-    <project path="vendor/oneplus/sm8550-common" name="proprietary_vendor_oneplus_sm8550-common" revision="fourteen" remote="inferno0230" />
+    <project path="vendor/oneplus/sm8550-common" name="proprietary_vendor_oneplus_sm8550-common" revision="rising-os" remote="inferno0230" />
 
     <!-- vendor qcom common -->
     <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" revision="uvite" remote="klr1to" />
