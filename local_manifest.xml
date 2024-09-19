@@ -18,7 +18,7 @@
     <project path="device/oneplus/sm8550-common" name="android_device_oneplus_sm8550-common" revision="rising-14-experimental" remote="klr1to" />
 
     <!-- ktree -->
-    <project path="kernel/oneplus/sm8550" name="android_kernel_oneplus_sm8550" revision="lineage-21" remote="klr1to" />
+    <project path="kernel/oneplus/sm8550" name="android_kernel_oneplus_sm8550" revision="nethunter" remote="klr1to" />
 
     <!-- kmod -->
     <project path="kernel/oneplus/sm8550-modules" name="android_kernel_oneplus_sm8550-modules" revision="lineage-21-R" remote="klr1to" />
