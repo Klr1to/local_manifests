@@ -9,13 +9,10 @@
             fetch="https://github.com/ThankYouMario" />
 
     <!-- device tree deps-->
-    <project path="device/oneplus/aston" name="android_device_oneplus_aston" revision="rising-14" remote="klr1to" />
-
-    <!-- Wtf is this. Why tf is this>
-    <project path="device/oneplus/aston-kernel" name="android_device_oneplus_aston-kernel" revision="lineage-21" remote="klr1to" /-->
+    <project path="device/oneplus/aston" name="android_device_oneplus_aston" revision="ROS-15" remote="klr1to" />
 
     <!-- common tree -->
-    <project path="device/oneplus/sm8550-common" name="android_device_oneplus_sm8550-common" revision="rising-14-experimental" remote="klr1to" />
+    <project path="device/oneplus/sm8550-common" name="android_device_oneplus_sm8550-common" revision="ROS-15" remote="klr1to" />
 
     <!-- ktree -->
     <project path="kernel/oneplus/sm8550" name="android_kernel_oneplus_sm8550" revision="nethunter" remote="klr1to" />
@@ -27,18 +24,18 @@
     <project path="kernel/oneplus/sm8550-devicetrees" name="android_kernel_oneplus_sm8550-devicetrees" revision="lineage-21-exp" remote="klr1to" />
 
     <!-- hardware/oplus -->
-    <project path="hardware/oplus" name="android_hardware_oplus" revision="lineage-21" remote="klr1to" />
+    <project path="hardware/oplus" name="android_hardware_oplus" revision="ROS-15" remote="klr1to" />
 
     <!-- vendor device -->
-    <project path="vendor/oneplus/aston" name="proprietary_vendor_oneplus_aston" revision="lineage-21-regen" remote="klr1to" />
+    <project path="vendor/oneplus/aston" name="proprietary_vendor_oneplus_aston" revision="ROS-15" remote="klr1to" />
 
     <!-- vendor common -->
-    <project path="vendor/oneplus/sm8550-common" name="proprietary_vendor_oneplus_sm8550-common" revision="lineage-21-regen" remote="klr1to" />
+    <project path="vendor/oneplus/sm8550-common" name="proprietary_vendor_oneplus_sm8550-common" revision="ROS-15" remote="klr1to" />
 
     <!-- vendor qcom common -->
-    <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" revision="uvite" remote="ThankYouMario" />
+    <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" revision="vauxite" remote="ThankYouMario" />
 
     <!-- device qcom common -->
-    <project path="device/qcom/common" name="android_device_qcom_common" revision="uvite" remote="AOSPA" />
+    <project path="device/qcom/common" name="android_device_qcom_common" revision="vauxite" remote="AOSPA" />
 
 </manifest>
